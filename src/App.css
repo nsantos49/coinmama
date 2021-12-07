@@ -1,0 +1,168 @@
+.app-header{
+  background-image: url("./images/careers_pics.png"), linear-gradient(to right top, #ffffff, #ffffff);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .7;
+  height: 40vh;
+}
+
+main{
+  background-color: white;
+  margin-inline: auto;
+  padding: 4rem;
+  max-width: 53%;
+  position: relative;
+  top: -20rem;
+}
+
+.logo-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 20%;
+  height: auto;
+}
+
+.button{
+  border: 1px solid transparent;
+  outline: none;
+  text-transform: capitalize;
+  background: #2975ca;
+  color: white;
+  padding: 1rem 1.5rem;
+}
+
+.top{
+  display: block;
+  padding: 2rem 0;
+}
+
+.top h1{
+  font-size: 3rem;
+  font-weight: 500;
+  color: black;
+  display: block;
+}
+
+.top p{
+  font-size: 1.5rem;
+  color: rgb(77, 77, 77);
+  display: block;
+}
+
+.location{
+  color: black !important;
+  font-weight: 500;
+}
+
+hr{
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  margin-bottom: 3rem;
+
+}
+
+h2{
+  font-size: 2rem;
+  color: black;
+  border-left: .2rem solid #3b4086;
+  padding-inline: 1rem;
+  margin: 2rem 0;
+}
+
+.first{
+  margin-top: 4rem !important;
+}
+
+.top-text{
+  margin: 3rem 0;
+}
+
+.last{
+  margin-bottom: 3rem;
+}
+
+.regular-text{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.list{
+  position: relative;
+  left: 3rem;
+  padding: 2rem 0;
+}
+
+h3{
+  font-size: 2rem;
+  margin: 3rem 0;
+}
+
+.job-description, .requirements-description, .payment-description{
+  text-transform: uppercase;
+}
+
+label{
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin: 2rem 0;
+}
+
+.form-control{
+  height: 4.5rem;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.form-button{
+  border: 1px solid transparent;
+  outline: none;
+  text-transform: capitalize;
+  background: green;
+  color: white;
+  width: 100%;
+  padding: 1.8rem 1.5rem;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.radio-group{
+  display: flex;
+}
+
+.radio{
+  margin-inline: 1rem;
+}
+
+.datepicker{
+  height: 4rem;
+  width: 100%;
+}
+
+h4{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+footer p{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 2rem 0;
+}
+
+.footer-logo{
+  width: 8rem;
+}
